@@ -1,0 +1,60 @@
+.btn {
+	padding: 10px;
+	border-radius: 15px;
+	outline: 0px;
+	border: 0px;
+	margin-bottom: 30px;
+}
+
+.top {
+	padding: 20px;
+}
+
+
+.menu {
+	list-style-type: none;
+	padding: 20px;
+
+}
+
+.menu li {
+	padding: 20px;
+}
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: #418bf4;
+}
+
+.style {
+	padding: 20px;
+}
+
+.side {
+	width: 270px;
+	position: fixed;
+	left: -270px;
+	transition-duration: 0.4s;
+	background: #000000;
+	color: white;
+	font-size: 20px;
+}
+
+.right {
+	float: right;
+}
+
+.move {
+	left: 0px;
+	top: 0px;
+	transition-duration: 0.4s;
+}
+
+.newFull{
+	position: absolute;
+	left: 270px;
+}
